@@ -66,9 +66,9 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 
-/**{*/
-/*	position: relative;*/
-/*}*/
+* {
+	position: relative;
+}
 
 .logo{
 	position: absolute;
@@ -76,9 +76,7 @@ h1, h2, h3, h4, h5 {
 	right: 27%;
 }
 
-.speech1{
-	/*text-align: center;*/
-}
+
 
 nav a{
 	text-decoration: none;
@@ -173,4 +171,125 @@ footer{
 a{
 	right: -40%;
 	top: -70%;
+}
+
+
+
+/*Services.html Start*/
+
+
+
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+header nav {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header nav a {
+	margin: 52px 15px 0 40px;
+	color: grey;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	line-height: 18px;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 30px;
+	margin-top: 20px;
+}
+
+.logo {
+	margin: 20px 0 0 100px;
+	padding-top: 20px;
+}
+
+.start-sec {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	margin: 50px 0 50px 0;
+}
+
+.about {
+	margin: 30px 0 0 30px;
+}
+
+.about h1 {
+	font-size: 24px;
+}
+
+button {
+	font-size: 16px;
+	padding: 5px 40px 5px 40px;
+	border: 1px solid black;
+}
+.start-sec {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 30px;
+	padding-bottom: 40px;
+}
+
+.services{
+	display: flex;
+}
+
+.items {
+	display: flex;
+	margin: 40px 0 0 0;
+	padding: 20px;
+	background: lightgrey;
+	border: 1px solid black;
+	width: 400px;
+}
+
+.items p {
+	line-height: 18px;
+}
+.items button {
+	margin-top: 20px;
+	font-size: 12px;
+	padding: 7px 20px 7px 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+footer {
+	margin: 20px 30px 90px 30px;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 14px;
+	margin-top: 50px;
+}
+
+
+.facts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 30px;
+}
+
+.facts-list {
+	width: 400px;
 }
